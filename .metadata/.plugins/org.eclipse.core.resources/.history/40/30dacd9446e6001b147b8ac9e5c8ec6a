@@ -1,0 +1,28 @@
+package br.com.linobank.banco.teste;
+
+import br.com.linobank.banco.modelo.Conta;
+import br.com.linobank.banco.modelo.ContaCorrente;
+import br.com.linobank.banco.modelo.ContaPoupanca;
+import br.com.linobank.banco.modelo.SaldoInsuficienteException;
+
+
+public class TesteContas {
+	
+	public static void main(String[] args) throws SaldoInsuficienteException {
+				
+		Conta c = new ContaCorrente(-111, 222);
+		
+		ContaCorrente cc = new ContaCorrente(111, 1111);
+		cc.deposita(100.0);
+		
+		ContaPoupanca cp = new ContaPoupanca(222, 2222);
+		cp.deposita(200.0);
+		
+		cc.transfere(10.0, cp);
+		
+		System.out.println("Saldo conta corrente R$" + cc.getSaldo());
+		System.out.println("Saldo conta poupança R$" + cp.getSaldo());
+		
+	}
+	
+}

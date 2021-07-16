@@ -1,0 +1,16 @@
+
+public class TestaMetodo {
+	
+	public static void main(String[] args) {
+		
+		Conta contaFabio = new Conta();
+		contaFabio.saldo = 100;
+		contaFabio.deposita(50);
+		
+		System.out.println("O saldo de sua conta é R$" + contaFabio.saldo);
+		
+		contaFabio.saca(30);
+		System.out.println(contaFabio.saldo);
+	}
+
+}

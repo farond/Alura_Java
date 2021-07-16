@@ -1,0 +1,16 @@
+package br.com.linobank.banco.test;
+
+public class TestaString {
+
+	public static void main(String[] args) {
+
+
+		String nome = "Fabio Lino"; //Object literal
+		
+		nome.replace("A", "a");
+		
+		System.out.println(nome);
+
+	}
+
+}

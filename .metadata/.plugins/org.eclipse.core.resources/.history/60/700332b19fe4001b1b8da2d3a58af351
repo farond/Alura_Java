@@ -1,0 +1,35 @@
+
+public class TesteIR {
+
+	public static void main(String[] args) {
+		
+		System.out.println("(*) Verificação de IR (*)");
+		
+		double salario = 3300.0;
+		
+		System.out.println("Olá seu salário é: R$" + salario);
+		
+		if(salario <= 1899.9){
+			System.out.println("O seu salário não entra na verificação do IR.");			
+		}
+		else if(salario <= 2800.0) {
+			salario = salario - 142;
+			System.out.println("O IR descontado do seu salário será de 7.5% e pode deduzir R$142"
+					+ "você irá receber R$" + salario);
+			
+		}
+		else if(salario <= 3751.0) {
+			salario = salario - 350;
+			System.out.println("O IR descontado do seu salário será de 15% e pode deduzir em R$350"
+					+ "você irá receber R$" + salario);
+		}
+		else {
+			salario = salario - 636;
+			System.out.println("O IR descontado do seu salário será de 22.5% e pode deduzir em R$636"
+					+ "você irá receber R$" + salario);
+			
+		}
+
+	}
+
+}

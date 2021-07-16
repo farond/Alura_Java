@@ -1,0 +1,9 @@
+package br.com.linobank.banco;
+
+public class TesteBiblioteca {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

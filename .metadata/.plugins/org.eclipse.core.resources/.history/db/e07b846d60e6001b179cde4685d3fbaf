@@ -1,0 +1,37 @@
+package br.com.linobank.banco.test;
+
+public class TestaString {
+
+	public static void main(String[] args) {
+
+
+		String nome = "Fabio"; //Object literal
+		
+		//String outro = nome.replace("F", "o");
+		
+		System.out.println(nome.length());
+		
+//		String sub = nome.substring(1);
+//		System.out.println(sub);
+		
+//		int pos = nome.indexOf("bi");
+//		System.out.println(pos);
+		
+//		char c = nome.charAt(0);
+//		System.out.println(c);
+		
+		
+//		char c = 'F';
+//		char d = 'o';
+//		String outro = nome.replace(c, d);
+		
+		
+		
+		//String outro = nome.toLowerCase();
+		
+//		System.out.println(nome);
+//		System.out.println(outro);
+
+	}
+
+}

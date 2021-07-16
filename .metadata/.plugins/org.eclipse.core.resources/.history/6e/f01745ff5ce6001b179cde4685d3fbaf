@@ -1,0 +1,19 @@
+package br.com.linobank.banco.test;
+
+public class TestaString {
+
+	public static void main(String[] args) {
+
+
+		String nome = "Fabio Lino"; //Object literal
+		
+		String outro = nome.replace("F", "o");
+		
+		//nome.toLowerCase();
+		
+		System.out.println(nome);
+		System.out.println(outro);
+
+	}
+
+}

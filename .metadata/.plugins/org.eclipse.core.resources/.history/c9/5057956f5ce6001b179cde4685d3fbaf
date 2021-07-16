@@ -1,0 +1,10 @@
+package br.com.linobank.banco.test;
+
+public class TestaString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

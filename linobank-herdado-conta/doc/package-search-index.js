@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"br.com.linobank.banco.especial"},{"l":"br.com.linobank.banco.model"},{"l":"br.com.linobank.banco.test"}]

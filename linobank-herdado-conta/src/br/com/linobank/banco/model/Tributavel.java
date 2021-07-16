@@ -1,0 +1,9 @@
+package br.com.linobank.banco.model;
+
+//tudo dentro de uma interface é abstrato
+public interface Tributavel {
+	
+	double getValorImposto();
+	
+
+}

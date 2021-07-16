@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ControleBonificacao"/>
+    <fullyQualifiedTypeName name="EditorDeVideo"/>
+    <fullyQualifiedTypeName name="Designer"/>
+    <fullyQualifiedTypeName name="ContaPoupanca"/>
+    <fullyQualifiedTypeName name="Administrador"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="Funcionario"/>
+    <fullyQualifiedTypeName name="Autenticavel"/>
+    <fullyQualifiedTypeName name="Cliente"/>
+    <fullyQualifiedTypeName name="Tributavel"/>
+    <fullyQualifiedTypeName name="SeguroDeVida"/>
+    <fullyQualifiedTypeName name="CalculadorDeImposto"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="MinhaExcecao"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="modelo.SeguroDeVida"/>
+    <fullyQualifiedTypeName name="modelo.CalculadorDeImposto"/>
+    <fullyQualifiedTypeName name="modelo.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="modelo.SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="modelo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="modelo.Conta"/>
+    <fullyQualifiedTypeName name="br.com.linobank.banco.modelo.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="br.com.linobank.banco.modelo.SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="br.com.linobank.banco.modelo.Conta"/>
+    <fullyQualifiedTypeName name="br.com.linobank.banco.modelo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="br.com.linobank.banco.modelo.SeguroDeVida"/>
+    <fullyQualifiedTypeName name="br.com.linobank.banco.modelo.CalculadorDeImposto"/>
+    <fullyQualifiedTypeName name="br.com.linobank.banco.model.Conta"/>
+    <fullyQualifiedTypeName name="br.com.linobank.banco.especial.ContaEspecial"/>
+</qualifiedTypeNameHistroy>
