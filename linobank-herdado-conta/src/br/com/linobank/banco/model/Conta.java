@@ -7,7 +7,7 @@ package br.com.linobank.banco.model;
  * @version 0.1
  *
  */
-public abstract class Conta {
+public abstract class Conta extends Object implements Comparable<Conta> {
 
     protected double saldo;
     private int agencia;
@@ -41,10 +41,30 @@ public abstract class Conta {
         //System.out.println("Estou criando uma conta " + this.numero);
     }
     
+    @Override
+    public boolean equals(Object ref) {
+    	
+    	Conta outra = (Conta) ref;
+    	
+    	if(this.agencia != outra.agencia) {
+    		return false;
+    	}
+    	
+    	if(this.numero != outra.numero) {
+    		return false;
+    	}
+    	
+    	return true;
+    }
+    
+    @Override
+    public int compareTo(Conta outra) { //a Interface Comparable exige a implementacao do metdo compareTo
+        return Double.compare(this.saldo, outra.saldo);
+    }
     
     @Override
 	public String toString() {
-		return "Agencia: " + this.agencia + " Numero: " + this.numero + "Saldo em conta: R$" + this.saldo;
+		return "Agencia: " + this.agencia + " Numero: " + this.numero + " Saldo em conta: R$" + this.saldo;
 	}
 
 
@@ -60,7 +80,7 @@ public abstract class Conta {
 	public void saca(double valor) throws SaldoInsuficienteException {
 
 		if (this.saldo < valor) { // saldo insuficiente
-			throw new SaldoInsuficienteException("Saldo: R$" + this.saldo + ", Valor: R$" + valor);
+			throw new SaldoInsuficienteException(" Saldo: R$" + this.saldo + ", Valor: R$" + valor);
 
 		}
 
