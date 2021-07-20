@@ -1,0 +1,12 @@
+package br.com.alura;
+
+public class Curso {
+
+	public static void main(String[] args) {
+		private String nome;
+		private String instrutor;
+		
+
+	}
+
+}

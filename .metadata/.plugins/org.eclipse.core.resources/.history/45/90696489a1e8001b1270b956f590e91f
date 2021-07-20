@@ -1,0 +1,14 @@
+package br.com.fabio.java.io.teste;
+
+public class TesteUnicodeEncoding {
+
+	public static void main(String[] args) {
+		
+		String s = "C";
+		System.out.println(s.codePointAt(0));
+
+
+
+	}
+
+}

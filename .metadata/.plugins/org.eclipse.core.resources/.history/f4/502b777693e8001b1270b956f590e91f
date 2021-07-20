@@ -1,0 +1,27 @@
+package br.com.fabio.java.io.teste;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class TesteTimeMillis {
+
+    public static void main(String[] args) throws IOException {
+
+        long ini = System.currentTimeMillis();
+
+        BufferedWriter bw = new BufferedWriter(new FileWriter("Arquivo_novo.txt"));
+
+        bw.write("Felipe");
+        bw.newLine();
+        bw.write("Testes em Projetinhos");
+
+        long fim = System.currentTimeMillis();
+
+        bw.write("Passaram " + (fim - ini) + " milissegundos"); //Agora vai compilar!
+        bw.close();
+
+        System.out.println("Passaram " + (fim - ini) + " milissegundos");
+
+    }
+}

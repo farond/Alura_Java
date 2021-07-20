@@ -1,5 +1,7 @@
 package br.com.linobank.banco.model;
 
+import java.io.Serializable;
+
 /**
  * Essa classe representa a moldura de uma conta no banco
  * 
@@ -7,12 +9,12 @@ package br.com.linobank.banco.model;
  * @version 0.1
  *
  */
-public abstract class Conta extends Object implements Comparable<Conta> {
+public abstract class Conta extends Object implements Comparable<Conta>, Serializable {
 
     protected double saldo;
     private int agencia;
     private int numero;
-    private Cliente titular;
+    private transient Cliente titular; //Não faz parte da serializacao, hoje em dia também é feito por Anotacao
     private static int total = 0;  //static O static faz com que o atributo seja da classe, e não mais do objeto. 
 	//Com isso, todo o objeto conta possui acesso a um único total
     

@@ -1,5 +1,7 @@
 package br.com.linobank.banco.model;
 
+import java.io.Serializable;
+
 public class ContaCorrente extends Conta implements Tributavel {
 	
 	public ContaCorrente(int agencia, int numero) {

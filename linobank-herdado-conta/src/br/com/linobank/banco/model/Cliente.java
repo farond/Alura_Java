@@ -1,5 +1,6 @@
 package br.com.linobank.banco.model;
 
+import java.io.Serializable;
 
 /**
  * Classe que representa um cliente do LinoBank

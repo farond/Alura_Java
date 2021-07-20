@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteJavaStrings {
+	
+	public static void main(String[] args) {
+		
+		List<String> palavras = new ArrayList<>();
+		palavras.add("Java 8 na Alura");
+		palavras.add("Fabio Lino");
+		palavras.add("Testando novas funcoes");
+		
+		for (String string : palavras) {
+			System.out.println(palavras);
+		}
+		
+	}
+
+}

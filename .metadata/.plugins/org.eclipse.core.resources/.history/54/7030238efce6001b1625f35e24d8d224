@@ -1,0 +1,27 @@
+package br.com.linobank.banco.test;
+
+import br.com.linobank.banco.model.ContaCorrente;
+
+public class TesteArrayReferencias {
+	
+	public static void main(String[] args) {
+		
+		ContaCorrente[] contas = new ContaCorrente[5];
+		
+		ContaCorrente cc1 = new ContaCorrente(3130, 6087);
+		ContaCorrente cc2 = new ContaCorrente(3130, 9085);
+		ContaCorrente cc3 = new ContaCorrente(3130, 8284);
+		ContaCorrente cc4 = new ContaCorrente(3130, 1587);
+		
+		contas[0] = cc1;
+		contas[1] = cc2;
+		contas[2] = cc3;
+		contas[3] = cc4;
+		
+		System.out.println(contas[1]);
+		
+		
+		
+	}
+
+}

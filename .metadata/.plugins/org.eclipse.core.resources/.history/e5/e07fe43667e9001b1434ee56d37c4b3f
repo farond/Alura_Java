@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Consumer;
+
+public class TesteJavaStrings {
+	
+	public static void main(String[] args) {
+		
+		List<String> palavras = new ArrayList<>();
+		palavras.add("Java 8 na Alura");
+		palavras.add("Fabio Lino");
+		palavras.add("Testando novas funcoes");
+		
+//		for (String string : palavras) {
+//			System.out.println(palavras);
+//		}
+		
+		Consumer<String> consumidor = new ImprimeNaLinha();
+		palavras.forEach(consumidor);
+		
+	}
+
+}
+
+class ImprimeNaLinha implements Consumer<String>{
+
+    @Override
+    public void accept(String s) {
+        System.out.println(s);
+    }
+}

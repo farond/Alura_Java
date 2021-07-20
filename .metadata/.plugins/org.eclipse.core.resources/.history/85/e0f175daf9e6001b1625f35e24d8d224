@@ -1,0 +1,24 @@
+package br.com.linobank.banco.test;
+
+public class Teste {
+
+	//Array []
+	public static void main(String[] args) {
+		
+		int[] idades = new int[5]; //inicializa o array com os valores padroes 0
+		
+		idades[0] = 29;
+		
+		int idade1 = idades[0];
+		
+//		int idade1 = 36;
+//		int idade2 = 45;
+//		int idade3 = 85;
+//		int idade4 = 15;
+//		int idade5 = 29;
+		
+		System.out.println(idades);
+
+	}
+
+}
